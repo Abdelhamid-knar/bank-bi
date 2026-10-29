@@ -1,0 +1,16 @@
+# Bank data: never commit
+landing/
+*.xlsx
+*.xls
+*.csv
+
+# Secrets
+.env
+
+# Drivers and runtime data
+drivers/*.jar
+nifi-data/
+
+# OS and editor files
+.DS_Store
+*.swp
